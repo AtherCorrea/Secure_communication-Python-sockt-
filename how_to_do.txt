@@ -1,0 +1,7 @@
+Este código cria um servidor que espera por uma conexão de um cliente. 
+Quando uma conexão é estabelecida, o servidor recebe uma mensagem criptografada do cliente, 
+descriptografa a mensagem, exibe a mensagem na tela e solicita uma nova mensagem para enviar ao cliente.
+O cliente funciona de maneira semelhante, criptografando as mensagens antes de enviá-las e descriptografando 
+as mensagens recebidas do servidor. 
+Para executar este código, você precisará executar o servidor em um computador e o cliente em outro computador. 
+Certifique-se de ter a mesma chave de criptografia salva em ambos os computadores.
